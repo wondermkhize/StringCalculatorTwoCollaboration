@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace Calculator.tests
 {
-    public class Tests
+    public class CalculatorTests
     {
         [SetUp]
         public void Setup()
