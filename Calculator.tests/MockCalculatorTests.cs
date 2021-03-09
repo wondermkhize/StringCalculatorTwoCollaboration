@@ -5,12 +5,12 @@ using Calculator;
 namespace Calculator.tests
 {
     [TestFixture]
-    public class CalculatorTests
+    public class MockCalculatorTests
     {
 
         [Test]
         [TestCase(-3,"##;\n1;2")]
-        public void GIVEN_WHEN_RETURN(int expected , string numbers)
+        public void GIVEN_HashDelimiter_WHEN_Subtracting_RETURN_Sum(int expected , string numbers)
         {
             var calculator = Substitute.For<ICalculator>();
 
